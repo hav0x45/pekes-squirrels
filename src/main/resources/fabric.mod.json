@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "pekessquirrels",
+  "version": "${version}",
+
+  "name": "TheMC's Food Items",
+  "description": "Added cool new foods!",
+  "authors": [
+    "TheMC"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "WTFPL",
+  "icon": "assets/pekessquirrels/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "themc.pekes.squirrels.PekesSquirrels"
+    ]
+  },
+  "mixins": [
+    "pekessquirrels.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

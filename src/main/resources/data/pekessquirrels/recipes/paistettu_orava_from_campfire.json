@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:campfire_cooking",
+    "ingredient": {
+        "item": "pekessquirrels:orava"
+    },
+    "result": "pekessquirrels:paistettu_orava",
+    "experience": 0.35,
+    "cookingtime": 100
+}
