@@ -1,2 +1,2 @@
 # pekes-squirrels
-Added squirrel items to minecraft
+Added squirrels to minecraft, craft them using dirt.
