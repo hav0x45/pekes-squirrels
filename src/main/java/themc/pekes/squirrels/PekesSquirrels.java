@@ -36,11 +36,11 @@ public class PekesSquirrels implements ModInitializer {
 
 
 
-		Registry.register(Registry.ITEM,  new Identifier("pekesfoods", "orava"), ORAVA); // Identifier for the item.
-		Registry.register(Registry.BLOCK, new Identifier("pekesfoods", "orava_block"), ORAVA_BLOCK);
-		Registry.register(Registry.ITEM,  new Identifier("pekesfoods", "orava_block"), new BlockItem(ORAVA_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
-		Registry.register(Registry.ITEM,  new Identifier("pekesfoods", "paistettu_orava"), PAISTETTU_ORAVA);
-		Registry.register(Registry.BLOCK, new Identifier("pekesfoods", "orava_ore"), ORAVA_ORE);
-		Registry.register(Registry.ITEM,  new Identifier("pekesfoods", "orava_ore"), new BlockItem(ORAVA_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
+		Registry.register(Registry.ITEM,  new Identifier("pekessquirrels", "orava"), ORAVA); // Identifier for the item.
+		Registry.register(Registry.BLOCK, new Identifier("pekessquirrels", "orava_block"), ORAVA_BLOCK);
+		Registry.register(Registry.ITEM,  new Identifier("pekessquirrels", "orava_block"), new BlockItem(ORAVA_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
+		Registry.register(Registry.ITEM,  new Identifier("pekessquirrels", "paistettu_orava"), PAISTETTU_ORAVA);
+		Registry.register(Registry.BLOCK, new Identifier("pekessquirrels", "orava_ore"), ORAVA_ORE);
+		Registry.register(Registry.ITEM,  new Identifier("pekessquirrels", "orava_ore"), new BlockItem(ORAVA_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
 	}
 }
